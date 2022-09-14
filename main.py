@@ -10,11 +10,11 @@ import matplotlib.pyplot as plt
 import scipy.ndimage as sc
 
 #citesc imaginea initiala
-cale= r'E:\Anul 4\Sem1\IM\Irimia_Iulia_1\hip_1.bmp'
+cale= r'E:\..\hip_1.bmp'
 img=plt.imread(cale)
 
 #citesc imaginea pe care ar trebui sa o obtin
-cale2= r'E:\Anul 4\Sem1\IM\Irimia_Iulia_1\hip_1_final.bmp'
+cale2= r'E:\..\hip_1_final.bmp'
 imgfinala=plt.imread(cale2)
 plt.figure()
 plt.imshow(imgfinala,cmap='gray')
